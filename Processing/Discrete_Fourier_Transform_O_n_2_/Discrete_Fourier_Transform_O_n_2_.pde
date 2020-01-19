@@ -1,7 +1,7 @@
 PImage I;
 float[][] R, Im;
-int r = 80;
-int r1 = 100;
+int r = 108;
+int r1 = 128;
 
 void settings(){
   I = loadImage("lena.png");
