@@ -12,3 +12,5 @@
 # Processing
 - Discrete Fourier Transform (DCT)
 - Rank-Order filter
+
+[![Run on Repl.it](https://repl.it/badge/github/Gigi-G/Image-Processing)](https://repl.it/github/Gigi-G/Image-Processing)
