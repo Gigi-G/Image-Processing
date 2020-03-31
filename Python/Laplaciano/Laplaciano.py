@@ -1,8 +1,9 @@
-import cv2
 import numpy as np
+import cv2
+
 
 def main():
-    path = 'wolf.jpg'
+    path = 'Python/Laplaciano/wolf.jpg'
     image = cv2.imread(path,0)
     height, width = image.shape
     i = np.array(image)
@@ -35,8 +36,8 @@ def main():
             y = y + 1
         x = x + 1
     window_name = 'Laplaciano'
-    cv2.imwrite('Laplaciano.jpg',B)
-    r = cv2.imread('Laplaciano.jpg')
+    cv2.imwrite('Python/Laplaciano/Laplaciano.jpg',B)
+    r = cv2.imread('Python/Laplaciano/Laplaciano.jpg')
     cv2.imshow(window_name,r)
     print("Type a key to close all")
     cv2.waitKey(0)
